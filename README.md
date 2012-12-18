@@ -1,10 +1,10 @@
 Resume
 ======
 
-Direct link
------------
+Preview
+-------
 
-[Download!](https://github.com/blackwithwhite666/resume/raw/master/black-resume.pdf)
+[Link to generated resume](https://github.com/blackwithwhite666/resume/raw/master/black-resume.pdf).
 
 How to compile
 --------------
