@@ -1,0 +1,151 @@
+%-----------------------------------------
+% Korotkih Nikita
+% Resumé
+%
+% URL: https://github.com/nik-kor/resume
+%-----------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{green}
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+
+% FONTS
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+% personal data
+\name{Никита}{Коротких}
+\phone[mobile]{+7~(910)~474~69~89}
+\email{nikita.korotkih@gmail.com}
+\social[github]{nik-kor}
+\photo[64pt][0.4pt]{picture}
+\extrainfo{Дата рождения: 06/10/1986}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Образование}
+\cventry{2004 - 2010}{Специалист}{МАИ(НИУ)}
+    {\newline{Специальность: Авиационные приборы и измерительно-вычислительные комплексы}}
+    {\newline{Тема диплома: Разработка средств для дистанционного диагностирования приборов и систем}}{}
+
+\section{Навыки}
+\cvitem{Языки}{
+    \begin{itemize}
+        \item Javascript
+            \begin{itemize}
+                \item native
+                \item широкий кругозор и практический опыт использования различных библиотек и фреймворков
+                (node.js, Angular.js, Backbone.js, Jasmine, Mocha, jquery, q, npm, bower, require.js, grunt, lineman.js, etc)
+            \end{itemize}
+        \item PHP - уверенное владение языком
+        \item Python - базовое знание. Понимаю питонский код. Могу фиксить баги
+    \end{itemize}
+}
+\cvitem{Проектиро-
+вание}{
+    \begin{itemize}
+        \item знание принципов ООП(SOLID) и практическое применение паттернов
+        \item проектирование интерфейсов сервисов с использованием Thrift IDL
+        \item опыт проектирования RESTful API
+    \end{itemize}
+}
+\cvitem{Тестиро-
+вание}{
+    \begin{itemize}
+        \item опыт написание юнит тестов - PHPUnit, PyUnit, Jasmine, Karma.js
+        \item опыт написание функциональных тестов - Selenium, Phantom
+        \item Specification By Example methodology
+    \end{itemize}
+}
+\cvitem{Верстка}{
+    \begin{itemize}
+        \item HTML/CSS
+        \item Less
+        \item БЭМ
+    \end{itemize}
+}
+\cvitem{Базы данных}{
+    \begin{itemize}
+        \item SQL - знаком с теорией(читал книжку Дж. Дейта). Умею писать запросы. Представляю, что такое проектирования схемы БД.
+        \item MySQL - базовые знания. Умею писать запросы, но с большими объемами данных не работал, оптимизацией не занимался.
+    \end{itemize}
+}
+\cvitem{Системное администрировние}{
+    \begin{itemize}
+        \item Linux - рабочая станция. Есть навыки администрирования
+        \item bash, awk, sed - использую регулярно
+        \item Docker - в последнее время очень интересуюсь данным проектом
+    \end{itemize}
+}
+\cvitem{CVS}{
+    \begin{itemize}
+        \item git - уверенное знание
+        \item svn - если вдруг надо будет - вспомню)
+    \end{itemize}
+}
+\cvitem{ Практики}{
+    \begin{itemize}
+        \item scrum-мастер. Постигаю скрам на практике. Успел наступить на много грабель. Типа знаю как "правильно"
+        \item kanban - знаю в теории
+        \item есть разный опыт участие в командой разработки как в качестве обычного разработчики, так и в качестве тим-лида/наставника
+        \item верю в успешные горизонтальные scrum-команды без явно выраженного тим-лида
+        \item Code review как обязательная часть рабочего процесса
+    \end{itemize}
+}
+
+\section{Опыт}
+\cventry{2012--настоящее время}{\url{http://www.gdeetotdom.ru}}{Технолог}{}{}{
+    \begin{itemize}
+         \item Разработка и поддержка frontend направления компании
+         \item scrum-master. Вцелом продвижение в компании идей гибкой разработки
+         \item Наставничество, участие в обсуждениях и помощь при проектировании / реализации проектов компании.
+         \item формирование команд, участие в поисках новых сотрудников
+    \end{itemize}
+}
+\cventry{2011--2012}{\url{http://www.gdeetotdom.ru}}{Ведущий разработчик}{}{}{
+    \begin{itemize}
+        \item ведение команды разработчиков(размер команды около 4-х человек)
+        \item разработал единый подход к написанию клиентских приложений в личном кабинете
+        \item участие в реализации проектов в качестве разработчика
+    \end{itemize}
+}
+\cventry{2010--2011}{\url{http://www.gdeetotdom.ru}}{Старший разработчик}{}{}{
+    \begin{itemize}
+        \item реализации проектов компании
+    \end{itemize}
+}
+\cventry{2008--2010}{\url{http://www.aft.ru}}{Разработчик}{}{}{
+    \begin{itemize}
+        \item Разработка, поддержка сайтов. PHP, JS, системное администрирование.
+    \end{itemize}
+}
+\cventry{2007-2008 (полгода)}{\url{http://www.qsoft.ru}}{Разработчик}{}{}{
+    \begin{itemize}
+        \item Сайты. PHP
+    \end{itemize}
+}
+\cventry{2007-2007 (полгода)}{\url{http://www.rusite.ru}}{Разработчик}{}{}{
+    \begin{itemize}
+        \item Сайты. PHP
+    \end{itemize}
+}
+\cventry{2006-2007}{\url{http://www.aviatex.ru}}{Техник}{}{}{
+    \begin{itemize}
+        \item Схемотехника и программирование микроконтроллеров. Atmel AVR, ПАИС, P-CAD
+    \end{itemize}
+}
+
+\section{Разное}
+    \cvlistitem{\url{https://github.com/nik-kor}}
+    \cvlistitem{\url{https://www.facebook.com/nikita.korotkih}}
+    \cvlistitem{\url{http://vk.com/id17392292}}
+    \cvlistitem{\url{https://twitter.com/NikitaKorotkih}}
+    \cvlistitem{Увлекаюсь альпинизмом и скалолазанием}
+    \cvlistitem{Английский язык - технический.}
+
+\end{document}
