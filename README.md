@@ -3,7 +3,7 @@ Resume
 
 Installation
 ------------
-*TODO* - check dependencies. Was using pdflatex instead of lualatex
+*TODO* - check dependencies and containerize it!
 
 For deb-based system ensure that those packages installed:
 
